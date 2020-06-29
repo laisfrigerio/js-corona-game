@@ -16,7 +16,7 @@ class Scenario {
         this.x2 = this.x2 - this.velocity;
 
         if (this.x1 < -width) {
-            this.x1 = width;
+            this.x1 = width - 10;
         }
 
         if (this.x2 < -width) {
