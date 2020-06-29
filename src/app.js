@@ -6,7 +6,7 @@ function setup() {
      * Scenario
      */
     scenario = new Scenario(scenarioImage, 1);
-    character = new Character(matrixCharacter, characterImage, -50, 50, 170, 200, 170, 200);
+    character = new Character(matrixCharacter, characterImage, -30, 50, 170, 200, 170, 210);
 }
 
 
