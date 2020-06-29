@@ -20,7 +20,7 @@ class Scenario {
         }
 
         if (this.x2 < -width) {
-            this.x2 = width;
+            this.x2 = width  - 10;
         }
     }
 }
