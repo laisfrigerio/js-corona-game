@@ -28,8 +28,15 @@ let matrixCharacter = [
 /**
  * Enemies
  */
-let enemy;
-let enemyImage;
+let enemyGreen;
+let enemyGreenImage;
+let enemyGreenMatrix = [
+    [0,   600],
+    [0, 800]
+];
+
+let enemyYellow;
+let enemyYellowImage;
 
 /**
  * Game control
