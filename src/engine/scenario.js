@@ -8,7 +8,7 @@ class Scenario {
 
     draw() {
         image(this.image, this.x2, 0, width, height);
-        image(this.image, this.x1, 0, width, height);
+        image(this.image, this.x1, 0, width - 2, height);
     }
 
     move() {
