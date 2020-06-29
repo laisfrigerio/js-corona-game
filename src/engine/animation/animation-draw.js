@@ -31,7 +31,7 @@ class AnimationDraw {
     }
 
     animate() {
-        // this.currentPostion = 7;
+        // this.currentPostion = 8;
         this.currentPostion++;
         if (this.currentPostion >= (this.matrix.length - 1)) {
             this.currentPostion = 0;

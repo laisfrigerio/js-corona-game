@@ -10,7 +10,7 @@ let scenarioImage;
 let character;
 let characterImage;
 let matrixCharacter = [
-    [10, 0],
+    [8, 0],
     [145, 0],
     [290, 0],
     [430, 0],
@@ -18,6 +18,8 @@ let matrixCharacter = [
     [700, 0],
     [840, 0],
     [970, 0],
+    [8, 220],
+    [145, 220],
 ];
 
 /**
