@@ -7,12 +7,9 @@ class Enemy extends AnimationDraw {
     move() {
         this.x -= this.velocity;
         if (this.x < -this.width) {
-            this.x = width - 50;
-            /*game.index++;
-
-            if (game.index > (game.map.length - 1)) {
-                game.index = 0;
-            }*/
+            this.x = width;
         }
     }
+
+    
 }

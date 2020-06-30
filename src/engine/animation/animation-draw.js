@@ -30,10 +30,18 @@ class AnimationDraw {
         }
     }
 
+    // animate() {
+    //     // this.currentPostion = 8;
+    //     this.currentPostion++;
+    //     if (this.currentPostion >= (this.matrix.length - 1)) {
+    //         this.currentPostion = 0;
+    //     }
+    // }
+
     animate() {
-        // this.currentPostion = 8;
+        // this.currentPostion = 1;
         this.currentPostion++;
-        if (this.currentPostion >= (this.matrix.length - 1)) {
+        if (this.currentPostion > (this.matrix.length - 1)) {
             this.currentPostion = 0;
         }
     }

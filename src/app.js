@@ -17,7 +17,8 @@ function draw() {
     scenario.draw();
     character.draw(play);
     enemyGreen.draw(play);
-    
-    scenario.move();
-    enemyGreen.move();
+    if (play) {
+        scenario.move();
+        enemyGreen.move();
+    }
 }
