@@ -6,9 +6,12 @@ class Game {
         scenario.draw();
         character.draw(play);
         enemy.draw(play);
+        pointing.draw();
+
         if (play) {
             scenario.move();
             enemy.move();
+            pointing.add();
             character.applyGravity();
 
             if (character.checkCollision(enemy)) {
@@ -24,6 +27,7 @@ class Game {
         coronaGreen = new Enemy(coronaGreenMatrix, coronaGreenImage, width - 50, 30, 155, 155, 155, 155, 30);
         coronaYellow = new Enemy(coronaYellowMatrix, coronaYellowImage, width - 50, 50, 155, 155, 155, 155, 30);
         enemies = [coronaYellow, coronaGreen, coronaGreen, coronaYellow, coronaGreen, coronaYellow, coronaYellow];
+        pointing = new Pointing();
     }
 
     keyPressed(key) {

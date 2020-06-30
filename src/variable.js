@@ -43,6 +43,7 @@ let enemy;
  */
 let play = true;
 let game;
+let pointing;
 
 /**
  * Sounds
