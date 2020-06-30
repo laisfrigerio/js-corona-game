@@ -12,11 +12,23 @@
     <title>Corona Game</title>
 </head>
 <body>
+    <div class="row" id="game-control">
+        <button class="btn restart" id="restart" type="button">RESTART</button>
+        <button class="btn pause" id="pause" type="button">PAUSE</button>
+    </div>
+    <div class="modal" id="game-over">
+        <div class="content">
+            <img src="assets/images/scenario/game-over.png" />
+            <button type="button" id="close-modal">OK</button>
+        </div>
+    </div>
     <script src="src/engine/scenario.js"></script>
     <script src="src/engine/animation/animation-draw.js"></script>
     <script src="src/engine/character/character.js"></script>
     <script src="src/engine/enemy/enemy.js"></script>
     <script src="src/engine/game.js"></script>
+    <script src="src/engine/game/control.js"></script>
+    <script src="src/engine/game/game-over.js"></script>
     <script src="src/app.js"></script>
 </body>
 </html>

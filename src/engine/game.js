@@ -12,15 +12,13 @@ class Game {
             character.applyGravity();
 
             if (character.checkCollision(enemy)) {
-                console.log('collision');
+                pauseSound();
+                gameOver();
             }
         }
     }
 
     init() {
-        /**
-     * Scenario
-     */
         scenario = new Scenario(scenarioImage, 30);
         character = new Character(matrixCharacter, characterImage, 10, 50, 130, 210, 130, 210);
         coronaGreen = new Enemy(coronaGreenMatrix, coronaGreenImage, width - 50, 30, 155, 155, 155, 155, 30);

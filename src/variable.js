@@ -43,3 +43,9 @@ let enemy;
  */
 let play = true;
 let game;
+
+/**
+ * Sounds
+ */
+let gameAudio;
+let jumpAudio;
