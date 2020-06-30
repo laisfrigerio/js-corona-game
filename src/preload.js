@@ -10,5 +10,6 @@ function preload() {
     gameAudio = loadSound("assets/audios/game-track.mp3");
     jumpAudio = loadSound("assets/audios/jumping-sound.mp3");
 
+    healthImage = loadImage("assets/images/health/heart.png");
     configFile = loadJSON("assets/config.json");
 }

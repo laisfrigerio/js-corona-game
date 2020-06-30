@@ -9,6 +9,11 @@ class Character extends AnimationDraw {
         this.isInvincible = false;
     }
 
+    makeInvincible() {
+        this.isInvincible = true;
+        setTimeout(() => { this.isInvincible = false; }, 1000);
+    }
+
     applyGravity () {
         this.y = this.y + this.jumpVelocity;
         this.jumpVelocity = this.jumpVelocity + this.gravity;
