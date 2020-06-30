@@ -1,7 +1,7 @@
 const $pause = document.querySelector("#pause");
 const $restart = document.querySelector("#restart");
 const $start = document.querySelector("#start-game");
-const $control = document.querySelector("#control");
+const $control = document.querySelector("#game-control");
 
 $restart.addEventListener('click', () => {
     playSound();

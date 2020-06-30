@@ -3,8 +3,8 @@ function setup() {
     frameRate(10);
     game = new Game();
     game.init();
+    playSound();
 }
-
 
 function keyPressed() {}
 
