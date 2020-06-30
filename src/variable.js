@@ -23,7 +23,7 @@ let matrixCharacter = [
 let enemyGreen;
 let enemyGreenImage;
 let enemyGreenMatrix = [
-    [0, 600],
+    [53, 600],
     [210, 600]
 ];
 
