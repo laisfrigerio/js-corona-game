@@ -1,0 +1,36 @@
+{
+    "health": {
+        "initialValue": 3,
+        "maximum": 100
+    },
+    "map": [
+        {
+            "enemy": 0,
+            "velocity": 30
+        },
+        {
+            "enemy": 0,
+            "velocity": 20
+        },
+        {
+            "enemy": 1,
+            "velocity": 30
+        },
+        {
+            "enemy": 0,
+            "velocity": 20
+        },
+        {
+            "enemy": 1,
+            "velocity": 25
+        },
+        {
+            "enemy": 1,
+            "velocity": 35
+        },
+        {
+            "enemy": 0,
+            "velocity": 20
+        }
+    ]
+}

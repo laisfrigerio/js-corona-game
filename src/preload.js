@@ -5,6 +5,10 @@ function preload() {
     coronaGreenImage = loadImage("assets/images/characters/nurse-girl.png");
     coronaYellowImage = loadImage("assets/images/characters/nurse-girl.png");
 
+    initialScreenImage = loadImage("assets/images/initial-screen/telainicial_corona.png");
+
     gameAudio = loadSound("assets/audios/game-track.mp3");
     jumpAudio = loadSound("assets/audios/jumping-sound.mp3");
+
+    configFile = loadJSON("assets/config.json");
 }

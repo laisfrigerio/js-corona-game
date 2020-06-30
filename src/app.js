@@ -1,9 +1,21 @@
 function setup() {
     createCanvas(windowWidth - 100, windowHeight - 200);
     frameRate(10);
+
+    /**
+     * Initial Screen
+     */
+    initialScreen = new InitialScreen();
+
+    /**
+     * Game
+     */
     game = new Game();
-    game.init();
-    playSound();
+
+    scenes = {
+        game,
+        initialScreen
+    };
 }
 
 function keyPressed() {
@@ -11,5 +23,6 @@ function keyPressed() {
 }
 
 function draw() {
-    game.draw();
+    scenes[currentScene].draw();
+    // game.draw();
 }

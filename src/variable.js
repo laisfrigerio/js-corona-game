@@ -49,3 +49,18 @@ let game;
  */
 let gameAudio;
 let jumpAudio;
+
+/**
+ * Config file
+ */
+let configFile;
+let map = [];
+
+/**
+ * Initial Screen
+ */
+let initialScreenImage;
+let initialScreen;
+
+let currentScene = 'initialScreen';
+let scenes = [];

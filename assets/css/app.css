@@ -19,11 +19,31 @@ canvas {
   margin-top: 10px;
 }
 
+.start-game {
+  background-color: #55c5b8;
+  border-bottom: 3px solid #336a6a;
+  border-right: 3px solid #336a6a;
+  border-radius: 20px;
+  color: #336a6a;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.start-game:hover {
+  background-color: #958bbf;
+  border-bottom: 3px solid #6569a5;
+  border-right: 3px solid #6569a5;
+  color: #2e2e42;
+}
+
 /**
  * Buttons
  */
  #game-control {
-  /* display: none; */
+  display: none;
 }
 
 #game-control.show {
