@@ -3,8 +3,8 @@ class Character extends AnimationDraw {
         super(matrix, image, x, yRange, widthCharacter, heightCharacter, widthSprite, heightSprite, 1);
         this.yInital = height - this.height - yRange;
         this.y = this.yInital;
-        this.jumpVelocity = 0;
-        this.gravity = 7;
+        this.jumpVelocity = 100;
+        this.gravity = 8;
         this.skips = 0;
         this.isInvincible = false;
     }
