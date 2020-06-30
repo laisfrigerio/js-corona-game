@@ -6,7 +6,9 @@ function setup() {
     playSound();
 }
 
-function keyPressed() {}
+function keyPressed() {
+    game.keyPressed(key);
+}
 
 function draw() {
     game.draw();

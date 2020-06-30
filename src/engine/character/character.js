@@ -4,7 +4,7 @@ class Character extends AnimationDraw {
         this.yInital = height - this.height - yRange;
         this.y = this.yInital;
         this.jumpVelocity = 0;
-        this.gravity = 3;
+        this.gravity = 7;
         this.skips = 0;
         this.isInvincible = false;
     }
